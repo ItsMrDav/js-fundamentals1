@@ -53,3 +53,91 @@
 
 // ************* LET - CONST - VAR ***************
 
+// let age = 30;
+// age = 31;
+
+// const birthYear = 1991;
+
+// const job;
+
+// ************* BASIC OPERATORS  ***************
+
+// //Math Operators
+// const currentYear = 2037;
+// const ageDavut = currentYear - 1992;
+// const ageSarah = currentYear - 2018;
+// console.log(ageDavut, ageSarah);
+
+// console.log(ageDavut * 2, ageDavut / 10, 2 ** 3);
+
+// const firstName = `Davut`;
+// const lastName = `Simsek`;
+// console.log(firstName + ` ` + lastName);
+
+// //Assignment Operators
+// let x = 10 + 5;
+// x += 10;
+// x -= 5;
+// x *= 2;
+// x /= 4;
+// x++;
+// x--;
+// x--;
+// console.log(x);
+
+// //Comparasion Operators
+// console.log(ageDavut > ageSarah);
+// console.log(ageSarah >= 18);
+
+// const isFullAge = ageSarah >= 18;
+
+// console.log(currentYear - 1992 > currentYear - 2018);
+
+// ************* OPERATOR PRESEDENCE  ***************
+
+// const currentYear = 2037;
+// const ageDavut = currentYear - 1992;
+// const ageSarah = currentYear - 2018;
+
+// console.log(currentYear - 1992 > currentYear - 2018);
+
+// let x, y;
+// x = y = 25 - 10 - 5;
+// console.log(x, y);
+
+// const averageAge = (ageDavut + ageSarah) / 2;
+// console.log(ageDavut, ageSarah, averageAge);
+
+// ************* STRING & TEMPLATE LITERALS  ***************
+
+// const firstName = `Davut`;
+// const job = `engineer`;
+// const birthYear = 1992;
+// const year = 2037;
+
+// const davut = `I'm ${firstName}, a ${year - birthYear} old ${job}.`;
+// console.log(davut);
+
+// ************* TAKING DECISIONS: IF/ELSE STATEMENTS  ***************
+
+// const age = 15;
+
+// if (age >= 18) {
+//     console.log(`Sarah can start driving car 🚗`);
+// } else {
+//     const yearsLeft = 18 - age;
+//     console.log(`Sarah is too young. Wait another ${yearsLeft} years 😊`);
+// }
+
+// const birthYear = 1992;
+// let century;
+
+// if (birthYear < 2000) {
+//     century = 20;
+// } else {
+//     century = 21;
+// }
+
+// console.log(century);
+
+// ************* TYPE CONVERSION & TYPE COERCION  ***************
